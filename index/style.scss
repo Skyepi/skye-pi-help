@@ -1,9 +1,9 @@
 .overflow{
   overflow:hidden;
   overflow: scroll;
-  overflow-y: 100px; /* Hide vertical scrollbar */
+  overflow-y: hidden; /* Hide vertical scrollbar */
   overflow-x: hidden; /* Hide horizontal scrollbar */
-  scrollbar-width: 2px;
+  scrollbar-width: 5px;
   }
 
 .hidden{
@@ -79,16 +79,10 @@
 }
 .textArea{
   width:300px;
-  height: 225px;
+  height: 200px;
   background-color: white;
   border-radius: 25px;
   margin: 10px auto 10px auto;
-  padding: 20px;
-}
-.back {
-  color:gray;
-  text-decoration: none;
-  text-align: left;
 }
 .border{
   padding:100px;
@@ -107,29 +101,22 @@
     position: relative;
     margin:5px 15px 0px 0px;
 }
-html{
-  background-color: whitesmoke;
-}
+
 body{
-    background-color: transparent;
+    background-color: whitesmoke;
     width: auto;
     height:auto;
    
 }
-.border{
-  background-color: whitesmoke;
-
-}
 .background{
     align-items: center;
     position: center;
-    padding:0px 40% 0px 40%;
+    padding:0px 50% 0px 50%;
     background-repeat: no-repeat;
     background-position: top;
     margin: 10px auto 10px auto;
     background-size:cover;
-    background-color: transparent;
-
+    background-color: whitesmoke;
 }
 .align{
     padding: 100px;
@@ -177,13 +164,12 @@ body{
 .button2{
   background-color: white;
   color:red;
-  border-color: red;
   border-radius: 15px;
   width: 300px;
   height: 45px;
   text-align: center;
   justify-items: center;
-  margin:10px;
+  margin:5px;
 }
 .rightBtn{
     border-width: 1px;
@@ -218,14 +204,6 @@ body{
 }
 .p3{
   color: black ;
-   margin:25px auto 0px auto;
-   font-size:medium;
-   font-weight:medium;
-   text-decoration:none;
-   margin:10px;
-}
-.p4{
-  color: red ;
    margin:25px auto 0px auto;
    font-size:medium;
    font-weight:medium;
