@@ -91,6 +91,7 @@
   text-align: left;
 }
 .border{
+  max-width: max-content;
   padding:100px;
   width: 120%;
   height: 350%;
@@ -129,6 +130,7 @@ body{
     margin: 10px auto 10px auto;
     background-size:cover;
     background-color: transparent;
+    max-width: max-content;
 
 }
 .align{
