@@ -100,6 +100,8 @@
   border-radius: 50px;
   box-shadow: 50%;
   border-style: solid;
+  background-color: whitesmoke;
+
 
 }
 
@@ -117,10 +119,7 @@ body{
     height:auto;
    
 }
-.border{
-  background-color: whitesmoke;
 
-}
 .background{
     align-items: center;
     position: center;
