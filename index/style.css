@@ -65,8 +65,8 @@
   max-width: 400px;
 }
 .logo{
-  width:100px;
-  height: 75px;
+  width:300px;
+  height: 200px;
   border-style: none;
   border-radius: 50px;
   margin:10px 10px 10px 10px;
@@ -89,19 +89,15 @@
   color:gray;
   text-decoration: none;
   text-align: left;
+  width: fit-content;
+  max-width: max-content;
+
 }
 .border{
+  width: fit-content;
   max-width: max-content;
-  padding:100px;
-  width: 120%;
-  height: 350%;
-  border-width: 70px;
-  background-color:linear-gradient(black,rgba(245, 245, 245, 0.575));
-  border-radius: 50px;
-  box-shadow: 50%;
   border-style: solid;
   background-color: whitesmoke;
-
 
 }
 
@@ -117,19 +113,21 @@ body{
     background-color: transparent;
     width: auto;
     height:auto;
-   
+    width: fit-content;
+    max-width: max-content;
 }
 
 .background{
+    width: fit-content;
+    max-width: max-content;
     align-items: center;
     position: center;
-    padding:0px 40% 0px 40%;
+    padding:0px 45% 0px 45%;
     background-repeat: no-repeat;
     background-position: top;
     margin: 10px auto 10px auto;
-    background-size:cover;
-    background-color: transparent;
-    max-width: max-content;
+    background-color: whitesmoke;
+    margin:50%;
 
 }
 .align{
