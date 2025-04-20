@@ -5,6 +5,16 @@
   overflow-x: hidden; /* Hide horizontal scrollbar */
   scrollbar-width: 5px;
   }
+.custom-title::after {
+  content: " ✨";
+  color: gold;
+}
+
+.custom-button:hover::after {
+  content: " ➜";
+  color: white;
+  padding-left: 5px;
+}
 
 .hidden{
   visibility: hidden;
